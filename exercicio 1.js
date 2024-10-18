@@ -1,12 +1,16 @@
-const nota1 = prompt("Digite a primeira nota");
+let nota1 = prompt("Digite a primeira nota : ");
 
-const nota2 = prompt("Digite a segunda nota");
+let nota2 = prompt("Digite a segunda nota : ");
 
-const nota3 = prompt("Digite a terceira nota");
+let nota3 = prompt("Digite a terceira nota : ");
 
-const n1 = nota1 , n2 = nota2 , n3 = nota3;
+nota1 = parseInt(nota1)
 
-let soma = (n1+n2+n3);
+nota2 = parseInt(nota2)
+
+nota3 = parseInt(nota3)
+
+let soma = (nota1+nota2+nota3);
 
 let media = soma / 3;
 
@@ -16,7 +20,7 @@ console.log("nota 2 = " + nota2);
 
 console.log("nota 3 = " + nota3);
 
-console.log("A Média desse aluno eh : " + soma);
+console.log("A Média desse aluno eh : " + media);
 
 if(media >= 60){
 
