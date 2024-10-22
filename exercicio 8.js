@@ -30,36 +30,36 @@ quantidadeP1 = parseInt(quantidadeP1);
 if(pedido1 == 100){
 
     console.log("vc pediu "+quantidadeP1+ " cachorros quentes ");
-    console.log("vc me deve : R$ "+(CachorroQuente * quantidadeP1)+ "reais");
+    console.log("vc me deve : R$ "+(CachorroQuente * quantidadeP1)+ " reais");
 
 }
 if(pedido1 == 101){
 
     console.log("vc pediu "+quantidadeP1+ " Baurus Simples");
-    console.log("vc me deve : R$ "+(BauruSimples * quantidadeP1)+ "reais")
+    console.log("vc me deve : R$ "+(BauruSimples * quantidadeP1)+ " reais")
     
 }
 if(pedido1 == 102){
 
     console.log("vc pediu "+quantidadeP1+ " Bauru Com Ovo ");
-    console.log("vc me deve : R$ "+(BauruComOvo * quantidadeP1)+ "reais")
+    console.log("vc me deve : R$ "+(BauruComOvo * quantidadeP1)+ " reais")
     
 }
 if(pedido1 == 103){
 
     console.log("vc pediu "+quantidadeP1+ " Hambúrgeres ");
-    console.log("vc me deve : R$ "+(Hambúrger * quantidadeP1)+ "reais")
+    console.log("vc me deve : R$ "+(Hambúrger * quantidadeP1)+ " reais")
     
 }
 if(pedido1 == 104){
 
     console.log("vc pediu "+quantidadeP1+ " Cheeseburgueres ");
-    console.log("vc me deve : R$ "+(Cheeseburguer * quantidadeP1)+ "reais")
+    console.log("vc me deve : R$ "+(Cheeseburguer * quantidadeP1)+ " reais")
     
 }
 if(pedido1 == 105){
 
     console.log("vc pediu "+quantidadeP1+ " Refrigerantes ");
-    console.log("vc me deve : R$ "+(Refrigerante * quantidadeP1)+ "reais")
+    console.log("vc me deve : R$ "+(Refrigerante * quantidadeP1)+ " reais")
     
 }
