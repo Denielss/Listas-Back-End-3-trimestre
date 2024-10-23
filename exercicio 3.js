@@ -1,3 +1,5 @@
+console.log(" atenção !! n coloque numeros iguais");
+
 let nm1 = prompt("Digite o primeiro numero : ");
 
 let nm2 = prompt("Digite o segundo numero : ");
